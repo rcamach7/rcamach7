@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a1930" />
+    <meta
+      name="description"
+      content="Guildway privacy policy: data collection, retention, service providers, and account deletion."
+    />
+    <link rel="canonical" href="https://ricardo-camacho.dev/guildway/privacy" />
+    <link rel="icon" href="/logo.svg" />
+    <link rel="stylesheet" href="/guildway/legal.css" />
+    <title>Privacy Policy — Guildway</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="/guildway"><span>Guildway</span> Policies</a>
+        <nav class="site-nav" aria-label="Guildway policies">
+          <a href="/guildway/privacy" aria-current="page">Privacy</a>
+          <a href="/guildway/support">Support</a>
+          <a href="/guildway/content-policy">Content Policy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <p class="eyebrow">Guildway</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective August 21, 2026</p>
+      <p class="lede">
+        Guildway is an iOS directory for discovering public Discord servers and bots. You can
+        browse and report a listing without creating an account. Sign in with Apple is required
+        only when you submit a server or bot for consideration.
+      </p>
+
+      <div class="notice">
+        <p><strong>Guildway does not track you.</strong></p>
+        <p>
+          Guildway does not use collected data to track you across apps or websites, and does not
+          sell personal information. Raw IP addresses and user-agent strings are not stored.
+        </p>
+      </div>
+
+      <h2>Data Guildway collects</h2>
+      <p>Guildway declares and collects the following four data types:</p>
+
+      <div class="data-list">
+        <section>
+          <h3>Apple user ID — linked to you</h3>
+          <p>
+            When you use Sign in with Apple, Guildway stores Apple's stable subject identifier as
+            the account key. It is used to create and secure your Guildway account and to associate
+            your catalog submissions with that account. Your email address is never used as the
+            account key.
+          </p>
+        </section>
+        <section>
+          <h3>Email address — linked to you and optional</h3>
+          <p>
+            Apple may provide an email address when you first sign in. Guildway stores it as
+            optional account metadata for app functionality. It may be your relay address if you
+            choose Hide My Email. You may also voluntarily put an email address or other contact
+            information in the free-text contact field of a listing report; this is the only place
+            a signed-out reporter is invited to provide contact information.
+          </p>
+        </section>
+        <section>
+          <h3>Other user content — linked to you</h3>
+          <p>
+            A catalog submission stores your proposed server or bot name, Discord destination,
+            description, optional owner introduction, category, tags, and languages, along with
+            its resolved Discord identity, review status, and moderation records. Because sign-in
+            is required to submit, this content is linked to your Guildway account.
+          </p>
+          <p>
+            A listing report stores the listing, reason, optional details, optional contact field,
+            and review status. Reporting does not require sign-in. A signed-out report stores no
+            Guildway account ID; a report made while signed in may be associated with the account.
+          </p>
+        </section>
+        <section>
+          <h3>Product interaction — not linked to you, for analytics</h3>
+          <p>
+            Guildway records list impressions, listing-detail views, and outbound join or install
+            actions to understand directory use and rank listings. Events include the listing,
+            interaction type, time, and a rotating pseudonymous visitor value. They are not linked
+            to your Guildway account.
+          </p>
+        </section>
+      </div>
+
+      <h2>Anonymous activity and abuse prevention</h2>
+      <p>
+        For analytics, Guildway derives a visitor pseudonym using HMAC-SHA-256 over the trusted
+        network address and a bounded, normalized user-agent string. The pseudonym rotates every
+        <strong>1 day by default</strong>. Guildway stores the resulting pseudonym, not the raw IP
+        address or user-agent string. It is used for event deduplication, rate limits, qualification,
+        ranking integrity, and abuse analysis.
+      </p>
+      <p>
+        Reports also use a daily rotating HMAC-derived reporter value for rate limiting and
+        duplicate detection. For a signed-out report it is derived from the network address; for a
+        signed-in report it is derived from the Guildway user ID. Raw network addresses are not
+        stored with reports.
+      </p>
+
+      <h2>Listings and public catalog information</h2>
+      <p>
+        A catalog listing may store and display its Discord ID, name, descriptions, optional owner
+        introduction, Discord-hosted imagery, categories, tags, languages, controlled external
+        links, and its validated Discord invite or bot-install destination. Server member and online
+        counts and bot server/install counts are point-in-time observations with observation
+        timestamps; they are not represented as live counts. Guildway also keeps moderation,
+        destination-validation, publication, and revalidation records needed to operate the catalog.
+      </p>
+
+      <h2>Retention</h2>
+      <ul>
+        <li>
+          Raw product-interaction events are retained for <strong>90 days by default</strong>.
+          Aggregate score windows and aggregate ranking anomaly/run records remain after the raw
+          events expire.
+        </li>
+        <li>
+          The analytics visitor pseudonym rotates every <strong>1 day by default</strong>.
+        </li>
+        <li>
+          Refresh-token families have a maximum lifetime of <strong>30 days by default</strong>.
+          Guildway stores hashes of refresh tokens, not the tokens themselves.
+        </li>
+        <li>
+          Expired or revoked session records are removed after a further
+          <strong>30 days by default</strong> under the stale-session retention setting.
+        </li>
+        <li>
+          Apple identity-token replay hashes are retained only through the identity token's
+          expiration so that the same token cannot establish another session.
+        </li>
+        <li>
+          Listings, submissions, reports, moderation decisions, destination checks, and related
+          safety records do not have a fixed short retention period. They are retained to operate,
+          review, protect, and audit the public catalog, including after account deletion as
+          described below.
+        </li>
+      </ul>
+
+      <h2>Service providers and external services</h2>
+      <h3>Apple</h3>
+      <p>
+        Apple provides Sign in with Apple. Guildway verifies Apple identity tokens and does not hold
+        an Apple access token or refresh token. Apple's handling of information is governed by
+        Apple's own privacy terms.
+      </p>
+      <h3>Hosting</h3>
+      <p>
+        Railway hosts Guildway's API, worker, PostgreSQL database, and Redis infrastructure and
+        processes data on Guildway's behalf to deliver and secure the service.
+      </p>
+      <h3>OpenAI moderation</h3>
+      <p>
+        Guildway uses OpenAI's moderation API as a third-party processor at launch. Submitted
+        listing text and Discord-hosted icon or banner images may be sent to OpenAI for automated
+        safety screening. Automated screening does not publish a submission; every submission also
+        requires moderator review.
+      </p>
+      <h3>Discord links</h3>
+      <p>
+        If you choose to open a server invite or bot-install link, you leave Guildway and interact
+        with Discord under Discord's own terms and privacy practices. Guildway is an independent
+        directory and is not affiliated with, endorsed by, or sponsored by Discord.
+      </p>
+
+      <h2>Delete your account</h2>
+      <p>
+        In the Guildway app, open <strong>Account &gt; Delete Account</strong> and confirm deletion.
+        Deletion clears the Apple subject and email from the account, marks the account deleted, and
+        revokes every Guildway session belonging to it on every device.
+      </p>
+      <p>
+        The account row deliberately survives in scrubbed form. Catalog submissions and reports
+        also survive, including their moderation and safety records, but they point to an account
+        that identifies nobody. This preserves the record of why content was approved, rejected,
+        or acted on. Signing in again with the same Apple ID creates a new Guildway account.
+      </p>
+
+      <h2>Privacy questions</h2>
+      <p>
+        Email <a href="mailto:contact@ricardo-camacho.dev">contact@ricardo-camacho.dev</a> with any
+        privacy question or request.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>Guildway is an independent directory for public Discord servers and bots.</p>
+        <p>Not affiliated with, endorsed by, or sponsored by Discord.</p>
+      </div>
+    </footer>
+  </body>
+</html>
