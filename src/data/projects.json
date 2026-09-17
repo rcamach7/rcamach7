@@ -1,0 +1,199 @@
+[
+  {
+    "title": "SmartReads",
+    "source": "https://github.com/rcamach7/smart-reader",
+    "live": "https://smart-reader.vercel.app/",
+    "gif": "https://res.cloudinary.com/de2ymful4/image/upload/v1719530543/smart-reads/sr_home_cvlbxr.png",
+    "still": "https://res.cloudinary.com/de2ymful4/image/upload/v1719530543/smart-reads/sr_home_cvlbxr.png",
+    "still_small": "https://res.cloudinary.com/de2ymful4/image/upload/v1719530543/smart-reads/sr_home_cvlbxr.png",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1660605410/main-portfolio/tech-skills/nextjs_mf7wiy.png"
+      },
+      {
+        "name": "React",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/react-anim_jqtsxo.gif"
+      },
+      {
+        "name": "MUI",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655232059/main-portfolio/tech-skills/mui_p9jh58.png"
+      },
+      {
+        "name": "Typescript",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1652491477/main-portfolio/tech-skills/typescript_v3ztli.png"
+      },
+      {
+        "name": "MongoDB",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1646101239/main-portfolio/tech-skills/mongodb_r1xhyn.png"
+      }
+    ],
+    "bulletPoints": [
+      "SmartReads is a web app where you can save books, create shelves, share with friends, and get book answers from AI!",
+      "Using OpenAI's GPT model, our app creates fun book blurbs and personalized recommendations.",
+      "Built with Next.js and Material-UI, SmartReads is made to work well on mobile devices and be easy to use."
+    ]
+  },
+  {
+    "title": "Fridge Finder | OSS Contributor",
+    "source": "https://github.com/CollectiveFocus/CFM_Frontend",
+    "live": "https://www.fridgefinder.app/",
+    "gif": "https://res.cloudinary.com/de2ymful4/image/upload/v1663375193/main-portfolio/projects/cfm_desktop_mtfzas.png",
+    "still": "https://res.cloudinary.com/de2ymful4/image/upload/v1663375193/main-portfolio/projects/cfm_desktop_mtfzas.png",
+    "still_small": "https://res.cloudinary.com/de2ymful4/image/upload/v1663375193/main-portfolio/projects/cfm_desktop_mtfzas.png",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1660605410/main-portfolio/tech-skills/nextjs_mf7wiy.png"
+      },
+      {
+        "name": "React",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/react-anim_jqtsxo.gif"
+      },
+      {
+        "name": "MUI",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655232059/main-portfolio/tech-skills/mui_p9jh58.png"
+      },
+      {
+        "name": "Git",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1646100087/main-portfolio/tech-skills/git_wjkubp.png"
+      }
+    ],
+    "bulletPoints": [
+      "Contributed to a web application that allows users to find, manage, and donate to community food fridges hosted by volunteers across the country",
+      "Developed reusable and responsive UI components from a provided Figma design that are used across the web application",
+      "Used project management tools such as Trello and Github to collaborate with other developers and to manage tasks"
+    ]
+  },
+  {
+    "title": "Headline Hunter",
+    "source": "https://github.com/rcamach7/headline-hunter",
+    "live": "https://rcamach7.github.io/headline-hunter/",
+    "gif": "https://res.cloudinary.com/de2ymful4/image/upload/v1680823086/main-portfolio/projects/Screenshot_2023-04-06_at_4.17.47_PM_hyirtm.png",
+    "still": "https://res.cloudinary.com/de2ymful4/image/upload/v1680823086/main-portfolio/projects/Screenshot_2023-04-06_at_4.17.47_PM_hyirtm.png",
+    "still_small": "https://res.cloudinary.com/de2ymful4/image/upload/v1680823086/main-portfolio/projects/Screenshot_2023-04-06_at_4.17.47_PM_hyirtm.png",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1660605410/main-portfolio/tech-skills/nextjs_mf7wiy.png"
+      },
+      {
+        "name": "Typescript",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1652491477/main-portfolio/tech-skills/typescript_v3ztli.png"
+      },
+      {
+        "name": "React",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/react-anim_jqtsxo.gif"
+      },
+      {
+        "skill": "PostgreSQL",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1680828474/main-portfolio/tech-skills/posgre_earnut.webp"
+      },
+      {
+        "skill": "Prisma",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1680828474/main-portfolio/tech-skills/prisma_pqxhjx.png"
+      },
+      {
+        "skill": "NextAuth",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1660605915/main-portfolio/tech-skills/nextAuth_crkr2f.png"
+      },
+      {
+        "name": "MUI",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655232059/main-portfolio/tech-skills/mui_p9jh58.png"
+      },
+      {
+        "skill": "NodeJS",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1646101318/main-portfolio/tech-skills/node_lzpvq6.png"
+      }
+    ],
+    "bulletPoints": [
+      "Implemented a user-friendly interface that displays a variety of news articles, allows users to save categories or articles, and generates smart summaries for articles using AI.",
+      "Utilized Prisma and PostgreSQL to store user preferences, favorites, and saved articles, ensuring a seamless user experience across multiple devices.",
+      "Integrated NextAuth to provide secure authentication and authorization for users, including social login options.",
+      "Utilized Typescript to improve the codebase's readability, maintainability, and scalability."
+    ]
+  },
+  {
+    "title": "Project Management App",
+    "source": "https://github.com/rcamach7/project-management-app",
+    "live": "https://project-management-app-eight.vercel.app/",
+    "gif": "https://res.cloudinary.com/de2ymful4/image/upload/v1669166598/main-portfolio/projects/flow_g_xk34so.gif",
+    "still": "https://res.cloudinary.com/de2ymful4/image/upload/v1669166099/main-portfolio/projects/flow_lg_ofqi5z.png",
+    "still_small": "https://res.cloudinary.com/de2ymful4/image/upload/v1669166098/main-portfolio/projects/flow_md_kt2e4x.png",
+    "technologies": [
+      {
+        "name": "Next.js",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1660605410/main-portfolio/tech-skills/nextjs_mf7wiy.png"
+      },
+      {
+        "name": "Typescript",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1652491477/main-portfolio/tech-skills/typescript_v3ztli.png"
+      },
+      {
+        "name": "React",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/react-anim_jqtsxo.gif"
+      },
+      {
+        "name": "MUI",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655232059/main-portfolio/tech-skills/mui_p9jh58.png"
+      },
+      {
+        "name": "MongoDB",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1646101239/main-portfolio/tech-skills/mongodb_r1xhyn.png"
+      }
+    ],
+    "bulletPoints": [
+      "A web application that helps you manage your software projects and tasks by creating workspaces, boards, and tickets!",
+      "Utilized static and server rendered pages where applicable to optimize SEO and improve load performance",
+      "Incorporated a atomic design pattern that allows for easy scaling and maintenance",
+      "Fully responsive design that works on all devices and screen sizes"
+    ]
+  },
+  {
+    "title": "Crypto Exchange Simulator",
+    "source": "https://github.com/rcamach7/crypto-exchange",
+    "live": "https://rcamach7.github.io/crypto-exchange/#/",
+    "gif": "https://res.cloudinary.com/de2ymful4/image/upload/v1658189710/main-portfolio/projects/crypto_gif_optimized_losmlx.gif",
+    "still": "https://res.cloudinary.com/de2ymful4/image/upload/v1655150813/main-portfolio/projects/crypto_still_d4dsjm.png",
+    "still_small": "https://res.cloudinary.com/de2ymful4/image/upload/v1655229875/main-portfolio/projects/scaled_down_images/crypto_still_rdevwl.png",
+    "technologies": [
+      {
+        "name": "React",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/react-anim_jqtsxo.gif"
+      },
+      {
+        "name": "Redux",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1656116643/main-portfolio/tech-skills/redux_rbbutz.png"
+      },
+      {
+        "name": "Typescript",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1652491477/main-portfolio/tech-skills/typescript_v3ztli.png"
+      },
+      {
+        "name": "MUI",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655232059/main-portfolio/tech-skills/mui_p9jh58.png"
+      },
+      {
+        "name": "NodeJS",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1648514838/main-portfolio/animated-logos/node-anim_hppmtb.gif"
+      },
+      {
+        "name": "ExpressJS",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1647634998/main-portfolio/tech-skills/express_ibtfvl.png"
+      },
+      {
+        "name": "MongoDB",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1646101239/main-portfolio/tech-skills/mongodb_r1xhyn.png"
+      },
+      {
+        "name": "Mongoose",
+        "link": "https://res.cloudinary.com/de2ymful4/image/upload/v1655170119/main-portfolio/tech-skills/mongoose_mdbxkq.png"
+      }
+    ],
+    "bulletPoints": [
+      "Developed a full stack web application that allows users to practice investing in cryptocurrency by allowing them to view, purchase and sell crypto coins at real time market prices",
+      "Created a responsive UI by utilizing MUI components, styled components, and media breakpoints for dynamic sizing",
+      "Persisted data in MongoDB by creating a server with Node and Express, that allows CRUD interaction from client to server"
+    ]
+  }
+]
